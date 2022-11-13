@@ -16,6 +16,7 @@
     border-radius: 3rem;
     backdrop-filter: blur(15px);
     text-align: center;
+    overflow-x: scroll;
 }
 .closebtn{
        /* background: rgba(0, 0, 0, 0.3); */
@@ -49,6 +50,10 @@
     background: rgba(0, 0, 0, 0.3);
 }
 
+.remix{
+    height: 3rem;
+    background: transparent;
+}
 nav {
     background: rgba(0, 0, 0, 0.3);
     width: max-content;

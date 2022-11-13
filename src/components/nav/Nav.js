@@ -11,6 +11,8 @@ import gimme from "../../assets/gimme.mp3";
 import Kurlus_osman from "../../assets/Kuruluş_Osman.mp3";
 import osman from "../../assets/osman.mp3";
 import { AiOutlineCloseCircle } from "react-icons/ai";
+import sickick from "../../assets/Infected(PagalWorld).mp3";
+import sickremix from "../../assets/Sickick_-_Body_Language_(Sickmix).mp3";
 const Nav = () => {
   const [activeNav, setActiveNav] = useState("#");
   const [audio, setAudio] = useState(loveAgain);
@@ -56,6 +58,23 @@ const Nav = () => {
           >
             Gimme! Gimme!
           </li>
+          <div style={{ display: "flex", justifyContent: "space-between" }}>
+            <li
+              onClick={() => {
+                setAudio(sickick);
+              }}
+            >
+              Sickick - Infected{" "}
+            </li>
+            <button
+              onClick={() => {
+                setAudio(sickremix);
+              }}
+              className="btn remix"
+            >
+              Remix
+            </button>
+          </div>
           <li
             onClick={() => {
               setAudio("");
