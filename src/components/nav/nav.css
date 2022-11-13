@@ -1,5 +1,56 @@
-nav{
-    background: rgba(0,0,0,0.3);
+.setting{
+    transition: var(--transition);
+}
+.audio {
+    background: rgba(0, 0, 0, 0.3);
+    width: 60%;
+    height: 30rem;
+    display: block;
+    padding: 0.7rem 1.7rem;
+    z-index: 2;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 6rem;
+    gap: 3rem;
+    border-radius: 3rem;
+    backdrop-filter: blur(15px);
+    text-align: center;
+}
+.closebtn{
+       /* background: rgba(0, 0, 0, 0.3); */
+    width: 8%;
+    height: 30rem;
+    display: block;
+    padding: 0.7rem 1.7rem;
+    z-index: 2;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 25rem;
+    gap: 3rem;
+    border-radius: 3rem;
+    /* backdrop-filter: blur(15px); */
+    text-align: center;
+    cursor: pointer;
+}
+
+.audio li{
+    background: transparent;
+    padding: 1rem 0;
+    /* border-radius: 50%; */
+    display: flex;
+    color: var(--color-primary);
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+.audio li:hover{
+    background: rgba(0, 0, 0, 0.3);
+}
+
+nav {
+    background: rgba(0, 0, 0, 0.3);
     width: max-content;
     display: block;
     padding: 0.7rem 1.7rem;
@@ -14,7 +65,7 @@ nav{
     backdrop-filter: blur(15px);
 }
 
-nav a{
+nav a {
     background: transparent;
     padding: 0.5rem;
     border-radius: 50%;
@@ -23,11 +74,20 @@ nav a{
     font-size: 1.1rem;
 }
 
-nav a:hover{
-    background: rgba(0,0,0,0.3);
+nav a:hover {
+    background: rgba(0, 0, 0, 0.3);
 }
 
-nav a.active{
+nav a.active {
     background: var(--color-bg);
     color: var(--color-white);
+}
+
+/* =========> Media Queries (Small Devices / Mobiles) <========== */
+
+@media screen and (max-width: 1024px) {
+    .closebtn{
+    width: 15%;
+    bottom: 23rem;
+    }
 }

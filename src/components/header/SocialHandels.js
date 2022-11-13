@@ -5,10 +5,13 @@ import { SiCodingninjas } from "react-icons/si";
 function SocialHandels() {
   return (
     <div className="social_handels">
-      <a href="https://Linkedin.com" target={"_blank"}>
+      <a
+        href="https://www.linkedin.com/in/md-shabaz-ansari-0399341bb/"
+        target={"_blank"}
+      >
         <BsLinkedin />
       </a>
-      <a href="https://Github.com" target={"_blank"}>
+      <a href="https://github.com/Meshabaz" target={"_blank"}>
         <GoMarkGithub />
       </a>
       <a

@@ -33,10 +33,15 @@ const About = () => {
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
-            nam quod veritatis dicta porro similique, quos saepe eum. Aliquam
-            nulla aut quisquam quidem placeat facere odit velit perferendis
-            deleniti recusandae!
+            I am aiming to use the knowledge gained till now, my curiosity to
+            gain new knowledge and to utilize my skills and abilities in the
+            industry that offers professional growth while being resourceful,
+            innovative, flexible and helpful to others. With this utilizing my
+            skills that lead to not only my development, but rather overall
+            development of the organization. As a Mechanical engineer, I have
+            both theoretical and practical knowledge. 1st of all I have interest
+            in Coding and web Development that's why I have learn Full Stack Web
+            development in Masai School.
           </p>
 
           <a href="#contact" className="btn btn-primary">
