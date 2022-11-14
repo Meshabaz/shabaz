@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/shabaz/static/css/main.526cb659.css",
-    "main.js": "/shabaz/static/js/main.3647576b.js",
+    "main.css": "/shabaz/static/css/main.29a239ce.css",
+    "main.js": "/shabaz/static/js/main.41936971.js",
     "static/js/787.0278b684.chunk.js": "/shabaz/static/js/787.0278b684.chunk.js",
     "static/media/Infected(PagalWorld).mp3": "/shabaz/static/media/Infected(PagalWorld).a6407485733998006c03.mp3",
     "static/media/loveAgain.mp3": "/shabaz/static/media/loveAgain.d76e1ab119071b008c84.mp3",
@@ -11,18 +11,19 @@
     "static/media/Sickick_-_Body_Language_(Sickmix).mp3": "/shabaz/static/media/Sickick_-_Body_Language_(Sickmix).04af829171c87ecfdd3f.mp3",
     "static/media/myntra__img.png": "/shabaz/static/media/myntra__img.e7ea00813eabee0e2e59.png",
     "static/media/netmeds__img.png": "/shabaz/static/media/netmeds__img.b2d9e8e4db79305f3693.png",
+    "static/media/weather__img.png": "/shabaz/static/media/weather__img.7d81e754c3fd72eb74ed.png",
     "static/media/me.jpg": "/shabaz/static/media/me.f4daa650e9caae11756f.jpg",
     "static/media/todo__img.png": "/shabaz/static/media/todo__img.8b556f0bb76095b3efaf.png",
     "static/media/cv.pdf": "/shabaz/static/media/cv.d0c4a76ecaf85f0c05ab.pdf",
     "static/media/editor__img.png": "/shabaz/static/media/editor__img.c0a30e8e018040310955.png",
     "static/media/logo.svg": "/shabaz/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/shabaz/index.html",
-    "main.526cb659.css.map": "/shabaz/static/css/main.526cb659.css.map",
-    "main.3647576b.js.map": "/shabaz/static/js/main.3647576b.js.map",
+    "main.29a239ce.css.map": "/shabaz/static/css/main.29a239ce.css.map",
+    "main.41936971.js.map": "/shabaz/static/js/main.41936971.js.map",
     "787.0278b684.chunk.js.map": "/shabaz/static/js/787.0278b684.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.526cb659.css",
-    "static/js/main.3647576b.js"
+    "static/css/main.29a239ce.css",
+    "static/js/main.41936971.js"
   ]
 }
