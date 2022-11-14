@@ -5,6 +5,7 @@ import { FaUserAlt } from "react-icons/fa";
 import { BsFillJournalBookmarkFill } from "react-icons/bs";
 import { AiFillMessage } from "react-icons/ai";
 import { MdSettingsInputComposite } from "react-icons/md";
+import { MdWork } from "react-icons/md";
 import { useState } from "react";
 import loveAgain from "../../assets/loveAgain.mp3";
 import gimme from "../../assets/gimme.mp3";
@@ -112,6 +113,13 @@ const Nav = () => {
           className={activeNav === "#contact" ? "active" : ""}
         >
           <AiFillMessage />
+        </a>
+        <a
+          href="#portfolio"
+          onClick={() => setActiveNav("#portfolio")}
+          className={activeNav === "#portfolio" ? "active" : ""}
+        >
+          <MdWork />
         </a>
         <a
           href="#setting"

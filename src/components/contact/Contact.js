@@ -3,8 +3,34 @@ import "./contact.css";
 import { MdEmail } from "react-icons/md";
 import { BsLinkedin } from "react-icons/bs";
 import { RiWhatsappFill } from "react-icons/ri";
+import { useRef } from "react";
+import emailjs from "emailjs-com";
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_ogfkb26",
+        "template_w8q6vsj",
+        form.current,
+        "AVcd-pazLW-vZkkZh"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+
+    e.target.reset();
+  };
+
   return (
     <section id="contact">
       <h5>Select a sutaible way you want to talk in</h5>
@@ -12,7 +38,7 @@ const Contact = () => {
       <div className="container contact__container">
         <div className="contact__options">
           <article className="contact__option">
-            <MdEmail />
+            <MdEmail className="contact__ottion__icon" />
             <h4>LinkedIn</h4>
             <h5>shabazameen1818@gmail.com</h5>
             <a href="mailto:shabazameen1818@gmail.com" target="_blank">
@@ -20,7 +46,7 @@ const Contact = () => {
             </a>
           </article>
           <article className="contact__option">
-            <BsLinkedin />
+            <BsLinkedin className="contact__ottion__icon" />
             <h4>Linked In</h4>
             <h5>Md Shabaz Ansari</h5>
             <a
@@ -31,7 +57,7 @@ const Contact = () => {
             </a>
           </article>
           <article className="contact__option">
-            <RiWhatsappFill />
+            <RiWhatsappFill className="contact__ottion__icon" />
             <h4>WhatsApp</h4>
             <h5>محمد شہباز انجم منتظر✨💫(Shabaz)</h5>
             <a
@@ -42,7 +68,7 @@ const Contact = () => {
             </a>
           </article>
         </div>
-        <form action="">
+        <form ref={form} onSubmit={sendEmail}>
           <input
             type="text"
             name="name"

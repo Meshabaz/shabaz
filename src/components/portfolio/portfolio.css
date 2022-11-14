@@ -1,61 +1,67 @@
-.protfolio__container{
-    display: grid;
-    height: 150vh;
-    grid-template-columns: repeat(2,1fr);
-    gap: 2.5rem;
+.protfolio__container {
+  display: grid;
+  height: 150vh;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+}
+#portfolio {
+  height: 80rem;
 }
 
-.portfolio__item{
-    background: var(--color-bg-variant);
-    padding: 1.5rem;
-    border-radius: 2rem;
-    border: 1px solid transparent;
-    transition: var(--transition);
-    text-align: center;
-    justify-content: center;
+.portfolio__item {
+  background: var(--color-bg-variant);
+  padding: 1.5rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  transition: var(--transition);
+  text-align: center;
+  justify-content: center;
 }
 
-.portfolio__item:hover{
-    border-color: var(--color-primary-variant);
-    background: transparent;
+.portfolio__item:hover {
+  border-color: var(--color-primary-variant);
+  background: transparent;
 }
-.portfolio__item__image{
-    border-radius: 1.5rem;
-    overflow: hidden;
-}
-
-.portfolio__item h3{
-    margin: 1.2rem 0 2rem ;
+.portfolio__item__image {
+  border-radius: 1.5rem;
+  overflow: hidden;
 }
 
-.portfolio__item__cta{
-    display: flex;
-    gap: 1rem;
-    margin-bottom: 1rem;
+.portfolio__item h3 {
+  margin: 1.2rem 0 2rem;
+}
+
+.portfolio__item__cta {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
 }
 
 /* =========> Media Queries (Medium Devices / Tablets) <========== */
 
 @media screen and (max-width: 1024px) {
-    .protfolio__container{
-        gap: 1.2rem;
-        padding-bottom: 27rem;
-    }
-    .portfolio__item{
-        height: max-content;
-    }
+  .protfolio__container {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
+    padding-bottom: 27rem;
+  }
+  .portfolio__item {
+    height: max-content;
+  }
+  #portfolio {
+    height: 110rem;
+  }
 }
 
 /* =========> Media Queries (Small Devices / Mobiles) <========== */
 
 @media screen and (max-width: 600px) {
-.protfolio__container{
+  .protfolio__container {
     grid-template-columns: 1fr;
     gap: 1rem;
     /* border: 1px solid white; */
-}
-#portfolio{
-    height: 175rem;
-
-}
+  }
+  #portfolio {
+    height: 185rem;
+  }
 }

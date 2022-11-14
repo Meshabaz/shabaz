@@ -92,6 +92,9 @@
   .about__content p {
     margin: 1rem 0 1.5rem;
   }
+  #about {
+    height: 150vh;
+  }
 }
 
 /* =========> Media Queries (Small Devices / Mobiles) <========== */
@@ -104,10 +107,10 @@
     /* border: 1px solid white; */
   }
   #about {
-    height: 175vh;
+    height: 190vh;
   }
   .about__me {
-    width: 65%;
+    width: 75%;
     height: 30rem;
     margin: 0 auto 3rem;
   }
@@ -117,9 +120,9 @@
     padding-left: 4rem;
     /* border: 2px solid red; */
   }
-    .about__card{
-      width: 80%;
-    }
+  .about__card {
+    width: 80%;
+  }
 
   .about__content {
     text-align: center;
