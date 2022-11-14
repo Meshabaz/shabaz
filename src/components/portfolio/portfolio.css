@@ -52,5 +52,10 @@
 .protfolio__container{
     grid-template-columns: 1fr;
     gap: 1rem;
+    /* border: 1px solid white; */
+}
+#portfolio{
+    height: 175rem;
+
 }
 }

@@ -97,24 +97,35 @@
 /* =========> Media Queries (Small Devices / Mobiles) <========== */
 
 @media screen and (max-width: 600px) {
-    #about {
-            height: 140vh;
-        }
+  .about__container {
+    width: auto;
+    display: block;
+    margin: auto;
+    /* border: 1px solid white; */
+  }
+  #about {
+    height: 175vh;
+  }
   .about__me {
-    width: 25%;
+    width: 65%;
     height: 30rem;
     margin: 0 auto 3rem;
   }
   .about__cards {
     grid-template-columns: 1fr;
     gap: 1rem;
+    padding-left: 4rem;
+    /* border: 2px solid red; */
   }
+    .about__card{
+      width: 80%;
+    }
 
   .about__content {
     text-align: center;
   }
 
   .about__content p {
-    margin: 1.5rem 0;
+    margin: 1.5rem 1rem;
   }
 }
