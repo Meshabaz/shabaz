@@ -33,7 +33,7 @@ footer a {
 }
 .footer__socials a {
   background: var(--color-bg);
-  columns: var(--color-white);
+  color: var(--color-white);
   padding: 0.7rem;
   border-radius: 0.7rem;
   display: flex;
