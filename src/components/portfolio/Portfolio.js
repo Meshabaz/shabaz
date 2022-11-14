@@ -4,6 +4,7 @@ import todo__img from "../../assets/todo__img.png";
 import editor__img from "../../assets/editor__img.png";
 import netmeds__img from "../../assets/netmeds__img.png";
 import myntra__img from "../../assets/myntra__img.png";
+import weather__img from "../../assets/weather__img.png";
 
 const Portfolio = () => {
   return (
@@ -59,6 +60,33 @@ const Portfolio = () => {
             </a>
             <a
               href="https://meshabaz.github.io/editor/"
+              className="btn btn-primary"
+              target="_blank"
+            >
+              Live Demo
+            </a>
+          </div>
+        </article>
+        <article className="portfolio__item">
+          <h2>Weather App</h2>
+          <div className="portfolio__item__image">
+            <img src={weather__img} alt="" />
+          </div>
+          <h3>
+            A Weather Application is a real time app in which a user can get the
+            climate and weather information from all around the world. And by
+            default this app will show your live location details.
+          </h3>
+          <div className="portfolio__item__cta">
+            <a
+              href="https://github.com/masai-course/md_shabaz_ansari_pw05_295/commit/dd947de038e777c25351f361b5b6b957fab26f4e"
+              className="btn"
+              target="_blank"
+            >
+              Github
+            </a>
+            <a
+              href="https://tubular-scone-791514.netlify.app/"
               className="btn btn-primary"
               target="_blank"
             >
