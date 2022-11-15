@@ -69,21 +69,16 @@ const Contact = () => {
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>
-          <input
-            type="text"
-            name="name"
-            placeholder="Md Shabaz Ansari"
-            required
-          />
+          <input type="text" name="name" placeholder="Your Name.." required />
           <input
             type="email"
             name="email"
-            placeholder="shabazameen1818@gmail.com"
+            placeholder="Your Email..."
             required
           />
           <textarea
             name="message"
-            placeholder="Your message.."
+            placeholder="Your message..."
             rows="10"
             required
           ></textarea>
