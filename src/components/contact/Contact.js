@@ -39,7 +39,7 @@ const Contact = () => {
         <div className="contact__options">
           <article className="contact__option">
             <MdEmail className="contact__ottion__icon" />
-            <h4>LinkedIn</h4>
+            <h4>G-mail</h4>
             <h5>shabazameen1818@gmail.com</h5>
             <a href="mailto:shabazameen1818@gmail.com" target="_blank">
               Send a message
