@@ -13,6 +13,38 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
       <div className="container protfolio__container">
         <article className="portfolio__item">
+          <h2>Freshly Clone</h2>
+          <div className="portfolio__item__image">
+            <img
+              src="https://github.com/Meshabaz/freshly-clone/raw/master/assets/landing1.png"
+              alt=""
+            />
+          </div>
+          <h3>
+            We’ve done the planning, prepping, and cooking, so all you have to
+            do is heat your meal, savor every flavor, and decompress from the
+            day. Built by a team of 5 Full stack web developers executed in 6
+            days
+          </h3>
+          <div className="portfolio__item__cta">
+            <a
+              href="https://github.com/Meshabaz/freshly-clone"
+              className="btn"
+              target="_blank"
+            >
+              Github
+            </a>
+            <a
+              href="https://meshabaz.github.io/freshly-clone/"
+              className="btn btn-primary"
+              target="_blank"
+            >
+              Live Demo
+            </a>
+          </div>
+        </article>
+
+        <article className="portfolio__item">
           <h2>Todo App</h2>
           <div className="portfolio__item__image">
             <img src={todo__img} alt="" />
