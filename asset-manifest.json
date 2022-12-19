@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/shabaz/static/css/main.0765d2bf.css",
-    "main.js": "/shabaz/static/js/main.43108bf9.js",
+    "main.js": "/shabaz/static/js/main.c7656991.js",
     "static/js/787.0278b684.chunk.js": "/shabaz/static/js/787.0278b684.chunk.js",
     "static/media/Infected(PagalWorld).mp3": "/shabaz/static/media/Infected(PagalWorld).a6407485733998006c03.mp3",
     "static/media/loveAgain.mp3": "/shabaz/static/media/loveAgain.d76e1ab119071b008c84.mp3",
@@ -19,11 +19,11 @@
     "static/media/logo.svg": "/shabaz/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/shabaz/index.html",
     "main.0765d2bf.css.map": "/shabaz/static/css/main.0765d2bf.css.map",
-    "main.43108bf9.js.map": "/shabaz/static/js/main.43108bf9.js.map",
+    "main.c7656991.js.map": "/shabaz/static/js/main.c7656991.js.map",
     "787.0278b684.chunk.js.map": "/shabaz/static/js/787.0278b684.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0765d2bf.css",
-    "static/js/main.43108bf9.js"
+    "static/js/main.c7656991.js"
   ]
 }
