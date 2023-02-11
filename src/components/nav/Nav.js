@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component, useEffect } from "react";
 import "./nav.css";
 import { RiHomeSmileFill } from "react-icons/ri";
 import { FaUserAlt } from "react-icons/fa";
@@ -17,6 +17,14 @@ import sickremix from "../../assets/Sickick_-_Body_Language_(Sickmix).mp3";
 const Nav = () => {
   const [activeNav, setActiveNav] = useState("#");
   const [audio, setAudio] = useState(loveAgain);
+  // useEffect(() => {
+  // setAudio(loveAgain);
+  // document.querySelector("audio").play();
+  // }, []);
+
+  window.onload = function () {
+    document.querySelector("audio").play();
+  };
   return (
     <>
       <div className="setting" style={{ display: "none" }}>

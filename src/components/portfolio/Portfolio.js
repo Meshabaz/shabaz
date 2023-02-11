@@ -5,7 +5,7 @@ import editor__img from "../../assets/editor__img.png";
 import netmeds__img from "../../assets/netmeds__img.png";
 import myntra__img from "../../assets/myntra__img.png";
 import weather__img from "../../assets/weather__img.png";
-
+import freshly from "../../assets/freshly.png";
 const Portfolio = () => {
   return (
     <section id="portfolio">
@@ -15,10 +15,7 @@ const Portfolio = () => {
         <article className="portfolio__item">
           <h2>Freshly Clone</h2>
           <div className="portfolio__item__image">
-            <img
-              src="https://github.com/Meshabaz/freshly-clone/raw/master/assets/landing1.png"
-              alt=""
-            />
+            <img src={freshly} alt="" />
           </div>
           <h3>
             We’ve done the planning, prepping, and cooking, so all you have to
