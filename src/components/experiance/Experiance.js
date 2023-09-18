@@ -6,6 +6,10 @@ import { FaReact } from "react-icons/fa";
 import { DiJavascript } from "react-icons/di";
 import { IoLogoCss3 } from "react-icons/io";
 import { SiJava } from "react-icons/si";
+import { DiMongodb } from "react-icons/di";
+import { FaNodeJs } from "react-icons/fa";
+
+
 function Experiance() {
   return (
     <section id="experiance">
@@ -64,14 +68,14 @@ function Experiance() {
               </div>
             </article>
             <article className="experiance__details">
-              <SiJava className="experiance__details__icons" />
+              <FaNodeJs className="experiance__details__icons" />
               <div>
                 <h4>Node-Express</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>{" "}
             <article className="experiance__details">
-              <SiJava className="experiance__details__icons" />
+              <DiMongodb className="experiance__details__icons" />
               <div>
                 <h4>Mongodb</h4>
                 <small className="text-light">Experienced</small>

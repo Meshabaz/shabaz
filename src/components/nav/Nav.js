@@ -39,7 +39,7 @@ const Nav = () => {
         <div className="audio">
           <h2>Audio Theme !</h2>
           <audio autoPlay="autoplay" loop controls src={audio}></audio>
-          <li
+          {/* <li
             onClick={() => {
               setAudio(osman);
             }}
@@ -52,7 +52,7 @@ const Nav = () => {
             }}
           >
             Kuruluş_Osman
-          </li>
+          </li> */}
           <li
             onClick={() => {
               setAudio(loveAgain);
