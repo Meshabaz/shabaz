@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import ME from "../../assets/me.jpeg";
+import ME from "../../assets/profile.jpeg";
 import { FaMedal } from "react-icons/fa";
 const About = () => {
   return (

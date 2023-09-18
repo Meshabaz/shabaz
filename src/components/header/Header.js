@@ -1,7 +1,7 @@
 import React from "react";
 import "./header.css";
 import Attachments from "./Attachments";
-import me from "../../assets/me.jpeg";
+import me from "../../assets/me.png";
 import SocialHandels from "./SocialHandels";
 
 const Header = () => {
@@ -21,7 +21,7 @@ const Header = () => {
         <Attachments />
         <SocialHandels />
         <div className="me">
-          <img src={me} alt="me" />
+          <img src={me} alt="me" style={{height:"30rem"}} />
         </div>
         <a href="#contact" className="scroll__down">
           Scroll Down

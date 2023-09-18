@@ -63,6 +63,20 @@ function Experiance() {
                 <small className="text-light">Experienced</small>
               </div>
             </article>
+            <article className="experiance__details">
+              <SiJava className="experiance__details__icons" />
+              <div>
+                <h4>Node-Express</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>{" "}
+            <article className="experiance__details">
+              <SiJava className="experiance__details__icons" />
+              <div>
+                <h4>Mongodb</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
           </div>
         </div>
       </div>
