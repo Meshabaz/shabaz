@@ -107,7 +107,7 @@ header {
 
 @media screen and (max-width: 600px) {
   header {
-    height: 200vh;
+    height: 140vh;
   }
   .scroll__down,
   .social_handels {
