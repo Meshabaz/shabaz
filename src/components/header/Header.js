@@ -21,7 +21,11 @@ const Header = () => {
         <Attachments />
         <SocialHandels />
         <div className="me">
-          <img src={me} alt="me" style={{height:"30rem"}} />
+          <img
+            src={me}
+            alt="me"
+            style={{ height: "33rem", width: "104%", marginLeft: "-1.4rem" }}
+          />
         </div>
         <a href="#contact" className="scroll__down">
           Scroll Down

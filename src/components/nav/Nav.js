@@ -9,14 +9,13 @@ import { MdWork } from "react-icons/md";
 import { useState } from "react";
 import loveAgain from "../../assets/loveAgain.mp3";
 import gimme from "../../assets/gimme.mp3";
-import Kurlus_osman from "../../assets/Kuruluş_Osman.mp3";
-import osman from "../../assets/osman.mp3";
+import Demons from "../../assets/Imagine-Dragons-Demons.mp3";
 import { AiOutlineCloseCircle } from "react-icons/ai";
 import sickick from "../../assets/Infected(PagalWorld).mp3";
 import sickremix from "../../assets/Sickick_-_Body_Language_(Sickmix).mp3";
 const Nav = () => {
   const [activeNav, setActiveNav] = useState("#");
-  const [audio, setAudio] = useState(loveAgain);
+  const [audio, setAudio] = useState(Demons);
   // useEffect(() => {
   // setAudio(loveAgain);
   // document.querySelector("audio").play();
@@ -39,20 +38,14 @@ const Nav = () => {
         <div className="audio">
           <h2>Audio Theme !</h2>
           <audio autoPlay="autoplay" loop controls src={audio}></audio>
-          {/* <li
-            onClick={() => {
-              setAudio(osman);
-            }}
-          >
-            Osman Bey Marşı (Anthem)
-          </li>
           <li
             onClick={() => {
-              setAudio(Kurlus_osman);
+              setAudio(Demons);
             }}
           >
-            Kuruluş_Osman
-          </li> */}
+            Imagine-Dragons-Demons
+          </li>
+         
           <li
             onClick={() => {
               setAudio(loveAgain);
