@@ -2,6 +2,8 @@ import React from "react";
 import "./about.css";
 import ME from "../../assets/profile.jpeg";
 import { FaMedal } from "react-icons/fa";
+import transition from "../../transition";
+import { Link } from "react-router-dom";
 const About = () => {
   return (
     <section id="about">
@@ -17,14 +19,15 @@ const About = () => {
               <FaMedal className="about__icon" />
               <h5>Experience</h5>
               <small>Currently Working</small>
+              <br />
+              <span>
+                <code>Infosys Limited.</code>
+              </span>
             </article>
             <article className="about__card">
               <FaMedal className="about__icon" />
               <h5>Education</h5>
-              <small>
-                Full Stack Developer ,&nbsp; Degree :
-                &nbsp;&nbsp;B.Tech(Mechanical Domain)
-              </small>
+              <small>Full Stack Developer ,&nbsp; Degree - B.Tech</small>
             </article>
             <article className="about__card">
               <FaMedal className="about__icon" />
@@ -32,23 +35,41 @@ const About = () => {
               <small>5+&nbsp; Completed Projects</small>
             </article>
           </div>
-          <p>
-            I am aiming to use the knowledge gained till now, my curiosity to
-            gain new knowledge and to utilize my skills and abilities in the
-            industry that offers professional growth while being resourceful,
-            innovative, flexible and helpful to others. With this utilizing my
-            skills that lead to not only my development, but rather overall
-            development of the organization. As a Mechanical engineer, I have
-            both theoretical and practical knowledge.
-          </p>
+          <br />
 
-          <a href="#contact" className="btn btn-primary">
+          <p>
+            Highly Motivated Full Stack Developer with 2 Years of Experience in
+            Application Development and Management As a dedicated and
+            detail-oriented full stack developer at Infosys, I possess a strong
+            passion for building scalable, efficient, and innovative software
+            solutions. With 2 years of experience in the application development
+            and management domain, I have honed my skills in:
+            <li>
+              - Designing and developing robust front-end and back-end
+              applications using cutting-edge technologies
+            </li>
+            <li>
+              - Collaborating with cross-functional teams to deliver
+              high-quality solutions that meet client requirements
+            </li>
+            <li>
+              - Troubleshooting and resolving complex technical issues with ease
+            </li>
+            <li>
+              - Staying up-to-date with industry trends and emerging
+              technologies to continuously improve skills
+            </li>
+            <li></li>
+          </p>
+          <br />
+
+          <Link to="/contact" className="btn btn-primary">
             Contact Me
-          </a>
+          </Link>
         </div>
       </div>
     </section>
   );
 };
 
-export default About;
+export default transition(About);

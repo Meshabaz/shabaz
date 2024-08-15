@@ -1,13 +1,23 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
+document.addEventListener("DOMContentLoaded", () => {
+  const audio = document.getElementById("background-music");
+  audio.volume = 0.5; // adjust volume as needed
+  audio.play();
+});
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter basename="/shabaz">
+      <Routes>
+        <Route path="/*" element={<App />} />
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>
 );
 

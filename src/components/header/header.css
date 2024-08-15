@@ -32,8 +32,10 @@ header {
   height: 110%;
   width: 100%;
   background: #1b1a1a;
-  background-image: url(../../assets/bg-texture.png);
+  /* background-image: url(../../assets/bg-texture.png); */
   z-index: 0;
+  border: none;
+  outline: none;
   border-left: 2px solid coral;
   animation: dynamictxt 1.5s steps(20) infinite;
 }
@@ -75,11 +77,11 @@ header {
 /* ===============> ME <================== */
 
 .me {
-  background: linear-gradient(var(--color-primary), transparent);
-  width: 22rem;
+  /* background: linear-gradient(var(--color-primary), transparent); */
+  width: 30rem;
   height: auto;
   position: absolute;
-  left: calc(50% - 11rem);
+  left: calc(50% - 14rem);
   margin-top: 4rem;
   border-radius: 12rem 12rem 0 0;
   overflow: hidden;

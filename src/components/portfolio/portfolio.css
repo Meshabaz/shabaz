@@ -5,7 +5,7 @@
   gap: 2.5rem;
 }
 #portfolio {
-  height: 80rem;
+  height: fit-content;
 }
 
 .portfolio__item {

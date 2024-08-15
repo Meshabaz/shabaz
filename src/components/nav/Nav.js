@@ -11,8 +11,9 @@ import loveAgain from "../../assets/loveAgain.mp3";
 import gimme from "../../assets/gimme.mp3";
 import Demons from "../../assets/Imagine-Dragons-Demons.mp3";
 import { AiOutlineCloseCircle } from "react-icons/ai";
-import sickick from "../../assets/Infected(PagalWorld).mp3";
-import sickremix from "../../assets/Sickick_-_Body_Language_(Sickmix).mp3";
+// import sickick from "../../assets/Infected(PagalWorld).mp3";
+// import sickremix from "../../assets/Sickick_-_Body_Language_(Sickmix).mp3";
+import { Link } from "react-router-dom";
 const Nav = () => {
   const [activeNav, setActiveNav] = useState("#");
   const [audio, setAudio] = useState(Demons);
@@ -21,12 +22,17 @@ const Nav = () => {
   // document.querySelector("audio").play();
   // }, []);
 
-  window.onload = function () {
-    document.querySelector("audio").play();
+  // window.onload = function () {
+  //   document.querySelector(".audio").play();
+  // };
+
+  const handleTransition = async (e) => {
+    e.preventDefault();
   };
+
   return (
     <>
-      <div className="setting" style={{ display: "none" }}>
+      {/* <div className="setting" style={{ display: "none" }}>
         <div>
           <AiOutlineCloseCircle
             className="closebtn"
@@ -85,44 +91,10 @@ const Nav = () => {
             No Audio
           </li>
         </div>
-      </div>
+      </div> */}
       <nav>
-        <a
-          href="#"
-          onClick={() => setActiveNav("#")}
-          className={activeNav === "#" ? "active" : ""}
-        >
-          <RiHomeSmileFill />
-        </a>
-        <a
-          href="#about"
-          onClick={() => setActiveNav("#about")}
-          className={activeNav === "#about" ? "active" : ""}
-        >
-          <FaUserAlt />
-        </a>
-        <a
-          href="#experiance"
-          onClick={() => setActiveNav("#experiance")}
-          className={activeNav === "#experiance" ? "active" : ""}
-        >
-          <BsFillJournalBookmarkFill />
-        </a>
-        <a
-          href="#contact"
-          onClick={() => setActiveNav("#contact")}
-          className={activeNav === "#contact" ? "active" : ""}
-        >
-          <AiFillMessage />
-        </a>
-        <a
-          href="#portfolio"
-          onClick={() => setActiveNav("#portfolio")}
-          className={activeNav === "#portfolio" ? "active" : ""}
-        >
-          <MdWork />
-        </a>
-        <a
+       
+        {/* <a
           href="#setting"
           onClick={() => {
             setActiveNav("#setting");
@@ -131,7 +103,46 @@ const Nav = () => {
           className={activeNav === "#setting" ? "active" : ""}
         >
           <MdSettingsInputComposite />
-        </a>
+        </a> */}
+
+        <Link
+          to="/"
+          onClick={() => {
+            setActiveNav("/");
+          }}
+          className={activeNav === "/" ? "active" : ""}
+        >
+
+          <RiHomeSmileFill />
+        </Link>
+        <Link
+          to="/about"
+          onClick={() => setActiveNav("/about")}
+          className={activeNav === "/about" ? "active" : ""}
+        >
+          <FaUserAlt />
+        </Link>
+        <Link
+          to="/experiance"
+          onClick={() => setActiveNav("/experiance")}
+          className={activeNav === "/experiance" ? "active" : ""}
+        >
+          <BsFillJournalBookmarkFill />
+        </Link>
+        <Link
+          to="/portfolio"
+          onClick={() => setActiveNav("/portfolio")}
+          className={activeNav === "/portfolio" ? "active" : ""}
+        >
+          <MdWork />
+        </Link>
+        <Link
+          to="/contact"
+          onClick={() => setActiveNav("/contact")}
+          className={activeNav === "/contact" ? "active" : ""}
+        >
+          <AiFillMessage />
+        </Link>
       </nav>
     </>
   );

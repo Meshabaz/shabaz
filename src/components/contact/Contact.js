@@ -5,6 +5,7 @@ import { BsLinkedin } from "react-icons/bs";
 import { RiWhatsappFill } from "react-icons/ri";
 import { useRef } from "react";
 import emailjs from "emailjs-com";
+import transition from "../../transition";
 
 const Contact = () => {
   const form = useRef();
@@ -33,7 +34,7 @@ const Contact = () => {
 
   return (
     <section id="contact">
-      <h5>Select a sutaible way you want to talk in</h5>
+      <h5>Let's turn ideas into reality. Reach out to me for collaborations</h5>
       <h2>Contact Me</h2>
       <div className="container contact__container">
         <div className="contact__options">
@@ -59,7 +60,7 @@ const Contact = () => {
           <article className="contact__option">
             <RiWhatsappFill className="contact__ottion__icon" />
             <h4>WhatsApp</h4>
-            <h5>محمد شہباز انجم منتظر✨💫(Shabaz)</h5>
+            <h5>Shahbaz A M ✨💫</h5>
             <a
               href="https://api.whatsapp.com/send?phone=919534492210"
               target="_blank"
@@ -91,4 +92,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default transition(Contact);

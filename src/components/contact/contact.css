@@ -1,3 +1,6 @@
+#contact{
+  height: fit-content;
+}
 .contact__container {
   width: 58%;
   display: grid;
@@ -19,9 +22,9 @@
   transition: var(--transition);
 }
 
-.contact__optoin:hover {
+.contact__option:hover {
   background: transparent;
-  border-color: var(--color-primary -variant);
+  border-color: var(--color-primary-variant);
 }
 
 .contact__ottion__icon {

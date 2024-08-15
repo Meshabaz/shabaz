@@ -1,3 +1,6 @@
+#experiance{
+    height: fit-content;
+   }
 .experiance__container{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -28,6 +31,12 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     row-gap: 2rem;
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end; */
+    gap: 2rem;
 }
 
 .experiance__details{
@@ -69,6 +78,6 @@
        padding: 2rem 1rem;
    }
    #experiance{
-    height: 53rem;
+    height: fit-content;
    }
 }

@@ -3,6 +3,8 @@ import "./header.css";
 import Attachments from "./Attachments";
 import me from "../../assets/me.png";
 import SocialHandels from "./SocialHandels";
+import ironman from "../../assets/ironman.png"
+import transition from "../../transition";
 
 const Header = () => {
   return (
@@ -12,7 +14,7 @@ const Header = () => {
         <h1>Md Shabaz Ansari</h1>
         <ul className="dynamic-txt">
           <li className="text-light">
-            And I'm a <span className="span">Full Stack Developer.</span>
+            a <span className="span">Full Stack Developer.</span>
           </li>
           {/* <li>
             <span>Fresher</span>
@@ -22,9 +24,9 @@ const Header = () => {
         <SocialHandels />
         <div className="me">
           <img
-            src={me}
+            src={ironman}
             alt="me"
-            style={{ height: "33rem", width: "104%", marginLeft: "-1.4rem" }}
+            // style={{ height: "33rem", width: "104%", marginLeft: "-1.4rem" }}
           />
         </div>
         <a href="#contact" className="scroll__down">
@@ -35,4 +37,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default transition(Header);

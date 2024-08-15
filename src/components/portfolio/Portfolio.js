@@ -6,6 +6,7 @@ import netmeds__img from "../../assets/netmeds__img.png";
 import myntra__img from "../../assets/myntra__img.png";
 import weather__img from "../../assets/weather__img.png";
 import freshly from "../../assets/freshly.png";
+import transition from "../../transition";
 const Portfolio = () => {
   return (
     <section id="portfolio">
@@ -183,4 +184,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default transition(Portfolio);

@@ -1,14 +1,15 @@
 import React from "react";
 import cv from "../../assets/cv.pdf";
+import { Link } from "react-router-dom";
 function Attachments() {
   return (
     <div className="attach">
       <a href={cv} download className="btn">
         Download CV
       </a>
-      <a href="#contact" className="btn btn-primary">
+      <Link to="/contact" className="btn btn-primary">
         Let's Talk
-      </a>
+      </Link>
     </div>
   );
 }
