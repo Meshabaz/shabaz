@@ -1,11 +1,8 @@
 {
   "files": {
-    "main.css": "/shabaz/static/css/main.920e7e30.css",
-    "main.js": "/shabaz/static/js/main.d27f9361.js",
+    "main.css": "/shabaz/static/css/main.08dc55a8.css",
+    "main.js": "/shabaz/static/js/main.f3f78f97.js",
     "static/js/787.d95c7cc2.chunk.js": "/shabaz/static/js/787.d95c7cc2.chunk.js",
-    "static/media/loveAgain.mp3": "/shabaz/static/media/loveAgain.d76e1ab119071b008c84.mp3",
-    "static/media/gimme.mp3": "/shabaz/static/media/gimme.65255f2563f2150e2f46.mp3",
-    "static/media/Imagine-Dragons-Demons.mp3": "/shabaz/static/media/Imagine-Dragons-Demons.564beeb7ce7061fe6dc7.mp3",
     "static/media/profile.jpeg": "/shabaz/static/media/profile.50722f4cbda3d7d0950b.jpeg",
     "static/media/myntra__img.png": "/shabaz/static/media/myntra__img.e7ea00813eabee0e2e59.png",
     "static/media/freshly.png": "/shabaz/static/media/freshly.deac68138d28bb151687.png",
@@ -17,12 +14,12 @@
     "static/media/editor__img.png": "/shabaz/static/media/editor__img.c0a30e8e018040310955.png",
     "static/media/ironman.png": "/shabaz/static/media/ironman.d34405f689a647a7b097.png",
     "index.html": "/shabaz/index.html",
-    "main.920e7e30.css.map": "/shabaz/static/css/main.920e7e30.css.map",
-    "main.d27f9361.js.map": "/shabaz/static/js/main.d27f9361.js.map",
+    "main.08dc55a8.css.map": "/shabaz/static/css/main.08dc55a8.css.map",
+    "main.f3f78f97.js.map": "/shabaz/static/js/main.f3f78f97.js.map",
     "787.d95c7cc2.chunk.js.map": "/shabaz/static/js/787.d95c7cc2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.920e7e30.css",
-    "static/js/main.d27f9361.js"
+    "static/css/main.08dc55a8.css",
+    "static/js/main.f3f78f97.js"
   ]
 }
