@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/shabaz/static/css/main.08dc55a8.css",
-    "main.js": "/shabaz/static/js/main.f3f78f97.js",
+    "main.css": "/shabaz/static/css/main.0c3e7379.css",
+    "main.js": "/shabaz/static/js/main.23d0eacd.js",
     "static/js/787.d95c7cc2.chunk.js": "/shabaz/static/js/787.d95c7cc2.chunk.js",
     "static/media/profile.jpeg": "/shabaz/static/media/profile.50722f4cbda3d7d0950b.jpeg",
     "static/media/myntra__img.png": "/shabaz/static/media/myntra__img.e7ea00813eabee0e2e59.png",
@@ -14,12 +14,12 @@
     "static/media/editor__img.png": "/shabaz/static/media/editor__img.c0a30e8e018040310955.png",
     "static/media/ironman.png": "/shabaz/static/media/ironman.d34405f689a647a7b097.png",
     "index.html": "/shabaz/index.html",
-    "main.08dc55a8.css.map": "/shabaz/static/css/main.08dc55a8.css.map",
-    "main.f3f78f97.js.map": "/shabaz/static/js/main.f3f78f97.js.map",
+    "main.0c3e7379.css.map": "/shabaz/static/css/main.0c3e7379.css.map",
+    "main.23d0eacd.js.map": "/shabaz/static/js/main.23d0eacd.js.map",
     "787.d95c7cc2.chunk.js.map": "/shabaz/static/js/787.d95c7cc2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.08dc55a8.css",
-    "static/js/main.f3f78f97.js"
+    "static/css/main.0c3e7379.css",
+    "static/js/main.23d0eacd.js"
   ]
 }
